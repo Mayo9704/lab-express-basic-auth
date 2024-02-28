@@ -1,0 +1,14 @@
+{{#if username}}
+  <h2>Welcome, {{ username }}!</h2>
+  <p>This is your profile page my friend!</p>
+
+  <button>
+    <a class="btn btn-outline-primary" href='/main'>Go to Main Page</a>
+  </button>
+
+  <button >
+    <a class="btn btn-outline-primary" href='/private'>Go to Private Page</a>
+  </button>
+{{else}}
+  <p>Still no logged in user, sorry!</p>
+{{/if}}

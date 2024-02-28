@@ -1,8 +1,51 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  Padding: 30px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #fff !important;
+  background-color: #1a1818 !important;
+}
+
+header, nav, main, footer {
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navigation {
+  padding: 1.2rem;
+  width: 100%;
+  background-color: #1a1818;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  height: 100px;
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  font-size: 0.8em;
 }
